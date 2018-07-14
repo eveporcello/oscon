@@ -27,14 +27,15 @@ query {
 
 Remix on Glitch
 ----
-
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/https://glitch.com/edit/#!/eveporcello-oscon)
 
 GraphQL Resources
 ----
-### GraphQL Official 
+### GraphQL Documentation
 * [GraphQL](http://www.graphql.org): The main website for the GraphQL project.
 * [GraphQL on GitHub](https://github.com/graphql/): The main GitHub repo for GraphQL's documentation, reference implementation (GraphQL.js), and other related projects
 * [GraphQL Spec](http://facebook.github.io/graphql): GraphQL's specification
+* [Apollo Docs](https://www.apollographql.com/docs): Apollo's documentation
 * [GraphQL Community Resources](https://graphql.org/community/): Links to conference talks, Slack channels, Twitter accounts, blogs, and more, curated by the GraphQL community
 
 ### GraphQL APIs
@@ -49,8 +50,7 @@ GraphQL Resources
 
 Presenter Info
 ----
-* Eve Porcello
-* Twitter: [@eveporcello](https://twitter.com/eveporcello)
-* Email: [eve@moonhighway.com](mailto:eve@moonhighway.com)
+* Eve Porcello: [@eveporcello](https://twitter.com/eveporcello)
+* [eve@moonhighway.com](mailto:eve@moonhighway.com)
 * [GraphQL Workshop](https://www.graphqlworkshop.com)
 * [Moon Highway](https://www.moonhighway.com)
