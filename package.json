@@ -1,0 +1,25 @@
+{
+  "name": "oscon",
+  "version": "1.0.0",
+  "description": "A project to introduce GraphQL with Apollo Server 2.0.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eveporcello/oscon.git"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "apis"
+  ],
+  "author": "Eve Porcello",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "2.0.0-rc.7",
+    "graphql": "0.13.2",
+    "nodemon": "1.18.2"
+  }
+}

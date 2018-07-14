@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        var query = `{ allPhotos {name } }`
+        var url = 'http://localhost:4000'
+
+        var opts = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ query })
+        }
+
+        fetch(url, opts)
+            .then(res => res.json())
+            .then(({ data }) => 
+                `<p>Photos: ${data.allPhotos.map(photo => photo.name)}</p>`)
+            .then(text => (document.body.innerHTML = text))
+            .catch(console.error)   
+    </script>
+</head>
+
+<body>
+</body>
+</html>
