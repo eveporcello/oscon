@@ -15,6 +15,8 @@ const typeDefs = `
     type Query {
         totalPhotos: Int!
         allPhotos: [Photo!]!
+        totalUsers: Int!
+        allUsers: [User!]!
     }
     type Mutation {
         postPhoto(name: String! description: String): Photo!
@@ -37,7 +39,9 @@ var _id = 0
 const resolvers = {
     Query: {
         totalPhotos: () => photos.length,
-        allPhotos: () => photos
+        allPhotos: () => photos,
+        totalUsers: () => users.length,
+        allUsers: () => users
     },
     Mutation: {
         postPhoto: (parent, args) => {
