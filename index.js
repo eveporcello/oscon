@@ -23,15 +23,15 @@ const typeDefs = `
     }
 `
 var photos = [
-    { "id": "1", "name": "Dropping the Heart Chute", "description": "The heart chute is one of my favorite chutes", "githubLogin": "gPlake" },
-    { "id": "2", "name": "Enjoying the sunshine", "githubLogin": "sSchmidt" },
-    { "id": "3", "name": "Gunbarrel 25", "description": "25 laps on gunbarrel today", "githubLogin": "sSchmidt" }
+    { "id": "1", "name": "Dropping the Heart Chute", "description": "The heart chute is one of my favorite chutes", "githubLogin": "mParker" },
+    { "id": "2", "name": "Enjoying the sunshine", "githubLogin": "eSaugstad" },
+    { "id": "3", "name": "Gunbarrel 25", "description": "25 laps on gunbarrel today", "githubLogin": "mParker" }
 ]
 
 var users = [
-    { "id": "a", "name": "Mike Hattrup", "githubLogin": "mHattrup" },
-    { "id": "b", "name": "Glen Plake", "githubLogin": "gPlake" },
-    { "id": "c", "name": "Scot Schmidt", "githubLogin": "sSchmidt" }
+    { "name": "Elyse Saugstad", "githubLogin": "eSaugstad" },
+    { "name": "Michelle Parker", "githubLogin": "mParker" },
+    { "name": "Angel Collinson", "githubLogin": "aCollinson" }
 ]
 
 var _id = 0
